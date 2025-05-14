@@ -1,0 +1,42 @@
+[workspace]
+authors = ["fecet <xiezej@gmail.com>"]
+channels = ["conda-forge"]
+name = "AiNiee"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+pyinstaller = "*"
+openai = "*"
+boto3 = "*"
+anthropic = "*"
+tiktoken = "*"
+numpy = "*"
+openpyxl = "*"
+pyqtwebkit = "*"
+google-genai = "*"
+ebooklib = "*"
+beautifulsoup4 = "*"
+pandas = "*"
+chardet = "*"
+pyyaml = "*"
+requests = "*"
+httpx = "*"
+rich = "*"
+tqdm = "*"
+jaconv = "*"
+python-rapidjson = "*"
+protobuf = "==4.25.3"
+language-data = "*"
+langcodes = "*"
+pip = "*"
+python = "=3.12"
+msgspec = "*"
+
+[pypi-dependencies]
+cohere = "*"
+PyQt-Fluent-Widgets = "*"
+opencc = "*"
+mediapipe = "*"
